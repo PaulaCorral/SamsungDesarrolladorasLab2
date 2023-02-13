@@ -1,0 +1,63 @@
+body{
+    background-color:rgb(36, 41, 51);
+    display: flex;
+    justify-content: center;
+}
+h1{
+    color:rgb(171, 185, 224);
+    font-family:Cambria;
+    font-size:xx-large;
+}
+div.grande{
+    align-self: center;
+    background-color:rgb(47, 54, 68);
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    width:max-content;
+    border-style:solid;
+    border-radius:3px;
+    border-color: rgb(69, 75, 90);
+    
+}
+
+
+label.campo{
+    color: rgb(115, 125, 153);
+}
+.respuesta{
+    margin-top: 1%;
+    width: 300px;
+    height: 25px;
+}
+.enviar{
+    background-color: rgb(108, 99, 255);
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    width:100%;
+}
+
+
+.error{
+    color: red;
+    font-size: small;
+}
+.estaBien{
+    border-color:rgb(17, 194, 17);
+    border-style: solid;
+    border-radius: 5px;
+    background-image: url('images/success-icon.svg');
+    background-repeat: no-repeat;
+    background-position-x: 280px;
+    background-position-y: 3px;
+}
+.estaMal{
+    border-color:red;
+    border-style: solid;
+    border-radius: 3px;
+    background-image: url('images/error-icon.svg');
+    background-repeat: no-repeat;
+    background-position-x: 280px;
+    background-position-y: 3px;
+}

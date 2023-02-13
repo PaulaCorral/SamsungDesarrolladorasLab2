@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <script type="text/javascript" src="index.js"></script> 
+    </head>
+    <body>
+        <form>
+            <div class = "grande">
+                <h1>Create Account</h1>
+                <label class = "campo">Nombre <br></label>
+                <input class = "respuesta" type = "text" id = "nombre" value = ""/>
+                <br>
+                <span class = "error" id = "errorNombre"></span>
+                <br>
+                <label class = "campo">Email <br></label>
+                <input class = "respuesta" type = "email" id = "email" value = ""/>
+                <br>
+                <span class = "error" id = "errorEmail"></span>
+                <br>
+                <label class = "campo">Clave <br></label>
+                <input class = "respuesta" type = "password" id = "clave" value = ""/>
+                <br>
+                <span class = "error" id = "errorClave"></span>
+                <br>
+                <label class = "campo">Confirme su clave <br></label>
+                <input class = "respuesta" type = "password" id = "confirmacion" value = ""/>
+                <br>
+                <span class = "error" id = "errorConfirmacion"></span>
+                <br>
+                <input class = "enviar" type="submit" onclick = "return check()" value="ENVIAR" /> 
+            </div>
+        </form>
+    </body>
+</html>
